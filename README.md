@@ -23,7 +23,7 @@ This is an extended version of [`dx:review-claudemd`](https://github.com/ykdojo/
 Clone into your personal skills directory:
 
 ```bash
-git clone https://github.com/<you>/review-claudemd.git ~/.claude/skills/review-claudemd
+git clone https://github.com/hangingwithshu/review-claudemd.git ~/.claude/skills/review-claudemd
 ```
 
 Claude Code discovers any `~/.claude/skills/<name>/SKILL.md` automatically. To scope it to a single project instead, clone into that project's `.claude/skills/` directory.
