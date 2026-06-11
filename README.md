@@ -20,13 +20,21 @@ This is an extended version of [`dx:review-claudemd`](https://github.com/ykdojo/
 
 ## Install
 
-Clone into your personal skills directory:
+Run the installer with npx (no npm account or global install needed):
+
+```bash
+npx github:hangingwithshu/review-claudemd
+```
+
+This copies `SKILL.md` into `~/.claude/skills/review-claudemd/`, where Claude Code discovers it automatically.
+
+Or clone it yourself:
 
 ```bash
 git clone https://github.com/hangingwithshu/review-claudemd.git ~/.claude/skills/review-claudemd
 ```
 
-Claude Code discovers any `~/.claude/skills/<name>/SKILL.md` automatically. To scope it to a single project instead, clone into that project's `.claude/skills/` directory.
+To scope the skill to a single project instead, place it in that project's `.claude/skills/` directory.
 
 ## Usage
 

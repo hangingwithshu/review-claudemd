@@ -1,0 +1,19 @@
+{
+  "name": "review-claudemd",
+  "version": "1.0.0",
+  "description": "Claude Code skill that reviews conversation history to improve CLAUDE.md files and project skills",
+  "bin": {
+    "review-claudemd": "bin/install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "bin/install.js"
+  ],
+  "keywords": ["claude", "claude-code", "skill", "claude-md"],
+  "license": "MIT",
+  "author": "Shuhang Cai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hangingwithshu/review-claudemd.git"
+  }
+}
